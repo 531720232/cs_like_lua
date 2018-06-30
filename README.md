@@ -3,7 +3,7 @@
 
 填坑进度1/100
 
-参考项目:cslight
+参考项目:cslight cs-script
 
 目标:cs_like_lua的脚本可以很容易的被C#代码调用，也可以反过来调用c#的函数
 支持语法到c#7
