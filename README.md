@@ -13,3 +13,22 @@
 
 应用场景:u3d热更新
 
+支持脚本语言
+c#
+webassembly
+
+
+未完成项目，无法使用
+
+实例1
+CLL_Context script = CLL_Zone.Eval
+                         .ParseWithStr(@"using System;
+                                     public class Script
+                                     {
+                                         public int Sum(int a, int b)
+                                         {
+                                             return a+b;
+                                         }
+                                     }");
+var result = script['Sum'](1, 2);
+Console.WriteLine(result.value);
